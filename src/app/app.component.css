@@ -1,0 +1,50 @@
+.buttonCls{
+  color: #FFFFFF;
+   width: 20em;
+    font-size: 15px;
+    background-color: #4F81BD;
+    height:35px;
+
+}
+label {
+font-size: 250%;
+  color:#05BEFF;
+
+}
+span {
+  color:#A6A6A6;
+  margin-left:-10px;
+}
+
+img {
+
+  margin-left: -60px;
+  margin-bottom: 10px;
+}
+
+.inputCls {
+  color:#black;
+  border-color: #A6A6A6;
+  margin-top:20px;
+  border-style:double;
+  text-align:center;
+  height:20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.resp {
+color: #ED5DD2;
+}
+
+/* You can add global styles to this file, and also import other style files */
+
+.text1{
+  color:#05BEFF;
+
+}
+.text2 {
+  color:#A6A6A6;
+  font-size: 150%;
+}
+

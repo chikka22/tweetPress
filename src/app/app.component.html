@@ -1,0 +1,17 @@
+<div style="text-align:center">
+  <label [ngClass]="text1">    Twee <span [ngClass] = "text2">Pression</span>
+  </label>
+  <img  id ="logoId" width="100" src ="../assets/logo.png">
+
+</div>
+<div style="text-align:center">
+
+<input class="inputCls" type="text" [(ngModel)]="userName"  size="100" value="Enter Your Twitter Username"/>
+
+  </div>
+<div style="text-align:center;margin-top:10px">
+  <input class="buttonCls" size="130" type="button" value="Diagnosis Result" (click)="getDiagnosis()">
+</div>
+<div style="text-align:center;margin-top:20px">
+  <span class="resp">{{ dignosisResult}}</span>
+</div>
